@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width initial-scale=1.0">
+    <title> Modelo de página</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <!--CABEÇALHO-->
+    <header class="header">
+        <h1 class="header-titulo"> Séries <span>&</span> Filmes </h1>
+        <nav class="header-nav">
+            <a class="header-nav-links" href="index.html">Home</a>
+            <a class="header-nav-links" href="quemsomos.html">Quem somos</a>
+        </nav>
+         <!-- Input de pesquisa -->
+        <input id="header-buscar" type="text" placeholder="Buscar" />
+    </header>
+
+    <main>
+            <!--LISTA DE POSTAGENS-->
+        <ul class="main-container">
+            <!-- POST 1 -->
+            <li class="post">
+                    <!-- DATA E ICON PARA FAVORITAR-->
+                <div class="data-e-icon">
+                    <P><strong><i>01/10/2025</i></strong></P> <!-- DATA -->
+                    <img class="curtir" src="img/icon-heart-desactived.svg"> <!-- ICON PARA FAVORITAR-->
+                </div>
+                    <!--TÍTULO-->
+                <h2 class="titulo-post">Homem Aranha</h2>
+                    <!--DESCRIÇÃO-->
+                <p class="post-conteudo">
+                    O Homem-Aranha é um ícone dos quadrinhos adaptado para o cinema. Suas aventuras mostram a vida de
+                    Peter Parker, equilibrando responsabilidades heroicas e desafios pessoais.
+                </p>
+            </li>
+            <!-- POST 2 -->
+            <li class="post">
+                 <!-- DATA E ICON PARA FAVORITAR-->
+                <div class="data-e-icon">  <!-- DATA -->
+                    <P><strong><i>01/10/2025</i></strong></P>
+                    <img class="curtir" src="img/icon-heart-desactived.svg">  <!-- ICON PARA FAVORITAR-->
+                </div>
+                <div class="post-conteudo">
+                     <!--TÍTULO-->
+                    <h2 class="titulo-post">This Is Us</h2>
+                    <!--DESCRIÇÃO-->
+                    <p class="post-conteudo">
+                        A série "This Is Us" narra a vida da família Pearson ao longo de décadas, entrelaçando passado e
+                        presente.
+                        Com emocionantes reviravoltas, explora temas como amor, perda e identidade, cativando o público
+                        com sua narrativa sensível e realista.
+                    </p>
+                </div>
+            </li>
+            <!-- POST 3-->
+            <li class="post">
+                <div class="data-e-icon">
+                    <P><strong><i>05/10/2025</i></strong></P>
+                    <img class="curtir" src="img/icon-heart-desactived.svg">
+                </div>
+                <div class="post-conteudo">
+                    <h2 class="titulo-post">Todo Poderoso</h2>
+                    <p class="post-conteudo">
+                        O filme "Todo Poderoso" (2003), estrelado por Jim Carrey, é uma comédia que aborda temas de
+                        poder e responsabilidade. A trama segue Bruce Nolan, um repórter insatisfeito que, após uma
+                        crise existencial, recebe temporariamente os poderes divinos de Deus. Ao manipular eventos sob
+                        sua própria vontade, Bruce inicialmente usa suas habilidades para ganho pessoal, mas logo
+                        descobre as complexidades e consequências imprevistas de interferir no destino alheio. O filme
+                        explora humoristicamente questões éticas e filosóficas, culminando em lições sobre humildade e o
+                        verdadeiro significado do poder, quando usado com sabedoria e compaixão.
+                    </p>
+                </div>
+            </li>
+            <!--POST 4-->
+            <li class="post">
+                <div class="data-e-icon">
+                    <P><strong><i>05/10/2025</i></strong></P>
+                    <img class="curtir" src="img/icon-heart-desactived.svg">
+                </div>
+                <div class="post-conteudo">
+                    <h2 class="titulo-post">Todo Mundo em Pânico</h2>
+                    <p class="post-conteudo">
+                        "Todo Mundo em Pânico" é uma série cinematográfica de comédia paródia que satiriza filmes de
+                        terror e blockbusters. Lançado em 2000, o primeiro filme, dirigido por Keenen Ivory Wayans,
+                        ridiculariza produções como "Pânico" e "Sexta-Feira 13". A franquia se caracteriza por seu humor
+                        escrachado, referências pop e quebra da quarta parede. Embora as sequências tenham recebido
+                        críticas mistas, os filmes foram sucessos comerciais, consolidando-se como ícones culturais dos
+                        anos 2000. A série influenciou o gênero de comédia paródia, misturando terror e humor de forma
+                        única para entreter o público.
+                    </p>
+                </div>
+            </li>
+            <!--Nenhum resultado encontrado-->
+            <li id="nenhum-resultado">
+                <p>Nenhum resultado encontrado</p>
+            </li>
+
+        </ul>
+    </main>
+    <!--RODAPÉ-->
+    <footer id="footer">
+        desenvolvido por Luana Duarte
+    </footer>
+    <script src="js/arquivo.js"></script>
+</body>
+
+</html>
