@@ -1,10 +1,7 @@
 <h2> 🧩Desafios Front-End </h2>
-
 Bem-vindo(a) ao Desafios Front-End — um repositório que criei para aprimorar minhas habilidades em desenvolvimento front-end de forma prática, criativa e divertida! 🚀
 
 Aqui reúno uma coleção de desafios com diferentes níveis de dificuldade — do iniciante ao avançado — para praticar e evoluir em HTML, CSS, JavaScript e frameworks modernos.
-
-<br>
 
 <h3>🎯 Objetivo </h3>  
 
@@ -14,8 +11,6 @@ Criei este repositório com o propósito de:
 💡 Reforçar meus conhecimentos em HTML, CSS e JavaScript; <br>
 🧩 Desenvolver boas práticas de código, semântica e organização de projetos; <br>
 🚀 Construir um portfólio sólido com desafios reais e variados.
-
-<br>
 
 <h3> 🧠 Estrutura dos Desafios </h3>
 
@@ -30,8 +25,6 @@ Organizo os desafios em pastas separadas, seguindo um padrão simples e fácil d
  ├── /solution        → Minha solução (ou diferentes abordagens)
  └── index.html
 
-<br>
-
 <h3> 🚀 Como Eu Trabalho com os Desafios </h3>
 
 - Escolho um desafio com base no nível de dificuldade que quero praticar; <br>
@@ -41,7 +34,6 @@ Organizo os desafios em pastas separadas, seguindo um padrão simples e fácil d
 
 Esse processo me ajuda a evoluir de forma consistente e a medir minha progressão ao longo do tempo. 
 
-<br>
 
 <h3> 🌱 Aprendizados e Propósito </h3> 
 Mais do que apenas código, este repositório representa meu processo contínuo de aprendizado e evolução como desenvolvedora Front-End. <br>
