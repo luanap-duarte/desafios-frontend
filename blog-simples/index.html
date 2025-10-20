@@ -13,26 +13,29 @@
     <header class="header">
         <h1 class="header-titulo"> Séries <span>&</span> Filmes </h1>
         <nav class="header-nav">
-            <a class="header-nav-links" href="index.html">Home</a>
-            <a class="header-nav-links" href="quemsomos.html">Quem somos</a>
+            <div>
+                <a class="header-nav-links" href="index.html">Home</a>
+                <a class="header-nav-links" href="quemsomos.html">Quem somos</a>
+            </div>
+            <div id="header-buscar"> <!-- Input de pesquisa -->
+                <input type="text" placeholder="Buscar" />
+            </div>
         </nav>
-         <!-- Input de pesquisa -->
-        <input id="header-buscar" type="text" placeholder="Buscar" />
     </header>
 
     <main>
-            <!--LISTA DE POSTAGENS-->
+        <!--LISTA DE POSTAGENS-->
         <ul class="main-container">
             <!-- POST 1 -->
             <li class="post">
-                    <!-- DATA E ICON PARA FAVORITAR-->
+                <!-- DATA E ICON PARA FAVORITAR-->
                 <div class="data-e-icon">
                     <P><strong><i>01/10/2025</i></strong></P> <!-- DATA -->
                     <img class="curtir" src="img/icon-heart-desactived.svg"> <!-- ICON PARA FAVORITAR-->
                 </div>
-                    <!--TÍTULO-->
+                <!--TÍTULO-->
                 <h2 class="titulo-post">Homem Aranha</h2>
-                    <!--DESCRIÇÃO-->
+                <!--DESCRIÇÃO-->
                 <p class="post-conteudo">
                     O Homem-Aranha é um ícone dos quadrinhos adaptado para o cinema. Suas aventuras mostram a vida de
                     Peter Parker, equilibrando responsabilidades heroicas e desafios pessoais.
@@ -40,13 +43,13 @@
             </li>
             <!-- POST 2 -->
             <li class="post">
-                 <!-- DATA E ICON PARA FAVORITAR-->
-                <div class="data-e-icon">  <!-- DATA -->
+                <!-- DATA E ICON PARA FAVORITAR-->
+                <div class="data-e-icon"> <!-- DATA -->
                     <P><strong><i>01/10/2025</i></strong></P>
-                    <img class="curtir" src="img/icon-heart-desactived.svg">  <!-- ICON PARA FAVORITAR-->
+                    <img class="curtir" src="img/icon-heart-desactived.svg"> <!-- ICON PARA FAVORITAR-->
                 </div>
                 <div class="post-conteudo">
-                     <!--TÍTULO-->
+                    <!--TÍTULO-->
                     <h2 class="titulo-post">This Is Us</h2>
                     <!--DESCRIÇÃO-->
                     <p class="post-conteudo">
@@ -103,8 +106,10 @@
         </ul>
     </main>
     <!--RODAPÉ-->
-    <footer id="footer">
-        desenvolvido por Luana Duarte
+    <footer>
+        <p id="footer">
+            desenvolvido por Luana Duarte
+        </p>
     </footer>
     <script src="js/arquivo.js"></script>
 </body>

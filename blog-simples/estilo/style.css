@@ -20,10 +20,21 @@
 }
 body{
     background-color: var(--background-body);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 ul{
     list-style-type: none;
+}
+
+.container-page2 h2{
+    text-align: center;
+}
+
+.conteudo{
+    flex-grow: 1;
 }
 .header span{
     color:#ffffff43;
@@ -35,7 +46,7 @@ ul{
     justify-content: center;
     background-color: var(--background-header);
     height: 7rem;
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
     gap: 4px;
 }
 
@@ -43,14 +54,18 @@ ul{
     display: flex;
     justify-content: center;
     font-family: var(--fonte-titulos);
-    padding: 2rem 0 0 0;
+    /*padding: 2rem 0 0 0;*/
     color:var(--cor-titulo);
+    margin: 5px 0 0 0;
 }
 
 .header-nav{
-    justify-content: center;
     display: flex;
-    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap:5px;
 }
 
 .header-nav-links{
@@ -66,33 +81,29 @@ ul{
     color: whitesmoke;
 }
 
-#header-buscar{
+#header-buscar input{
     background-color: var( --background-header-buscar);
-    color: oklch(43.9% 0 0);
-    border: none;
-    border-radius: 15px;
-    padding: 0.8rem;
-    margin: 0 10rem 0 10rem;
     text-align: center;
-    font-size: 14px;
+    padding: 8px;
+    height: 2rem;
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 5px;
 }
-.header-buscar:focus{ 
-    outline:rgba(11, 70, 112, 0.748);
-}
+
 
 .main-container{
     justify-content: center;
     display: flex;
     gap: 15px;
     flex-direction: column;
-    margin: 5rem 20rem 0 20rem;
+    margin: 5rem 15rem 0 15rem;
     padding: 2rem;
 }
 
 .post{
-    border: 3px solid black;
+    border: 3px solid var(--cor-borderPost-search);
     padding: 1rem;
-    border-color: var(--cor-borderPost-search);
 }
 
 .titulo-post{
@@ -119,11 +130,20 @@ ul{
     text-align: center;
 }
 
-
+.container-page2{
+    border: 3px solid var(--cor-borderPost-search);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin: 5rem 15rem 0 15rem;
+    padding: 2rem;    
+}
 
 #footer{
     background-color:var(--background-footer);
     padding: 2rem;
-    margin: 1rem 0 0 0;
     text-align: center;
+    margin:17rem 0 0 0;
 }
